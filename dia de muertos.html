@@ -4,30 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Día de Muertos</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" 
-    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
 
-    <!-- Encabezado con navbar -->
     <header class="bg-success text-white text-center p-3">
-        <h1>Día de Muertos</h1>
+        <h1>⚝ Día de Muertos ⚝</h1>
     </header>
 
     <nav class="navbar navbar-expand-lg bg-success navbar-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Inicio</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" 
         aria-controls="menu" aria-expanded="false" aria-label="Menú">
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="menu">
+        <div class="collapse navbar-collapse justify-content-center" id="menu">
           <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link" href="#quees">Qué es</a></li>
-            <li class="nav-item"><a class="nav-link" href="#dondenacio">Dónde nació</a></li>
-            <li class="nav-item"><a class="nav-link" href="#comosecelebra">Cómo se celebra</a></li>
-            <li class="nav-item"><a class="nav-link" href="#dondesecelebra">Dónde se celebra</a></li>
+            <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#quees">¿Qué es?</a></li>
+            <li class="nav-item"><a class="nav-link" href="#dondenacio">¿Dónde nació?</a></li>
+            <li class="nav-item"><a class="nav-link" href="#comosecelebra">¿Cómo se celebra?</a></li>
+            <li class="nav-item"><a class="nav-link" href="#dondesecelebra">¿Dónde se celebra?</a></li>
+            <li class="nav-item"><a class="nav-link" href="#galeria">Galería</a></li>
           </ul>
         </div>
       </div>
@@ -35,56 +34,80 @@
 
     <main class="container text-center my-4">
 
-        <!-- Sección Qué es -->
+        <section id="inicio" class="row mb-4">
+            <div class="col-12 bg-success-subtle p-3 rounded">
+                <h2>Bienvenidos al Día de Muertos</h2>
+                <p>En esta página conocerás todo sobre esta tradición mexicana: su historia, cómo se celebra, dónde se originó y los lugares donde aún se festeja. ¡Explora cada sección usando el menú de arriba!</p>
+            </div>
+        </section>
+
         <section id="quees" class="row mb-4">
-            <div class="col-12 bg-success-subtle p-3">
+            <div class="col-12 bg-success-subtle p-3 rounded">
                 <h2>¿Qué es el Día de Muertos?</h2>
-                <p>Es una tradición mexicana para honrar y recordar a los seres queridos que han fallecido. 
-                Se celebra con altares, flores de cempasúchil, ofrendas y mucha cultura.</p>
-                <p>[Aquí va la imagen 1]</p>
-                <p>[Aquí va la imagen 2]</p>
+                <p>El Día de Muertos es una de las tradiciones más importantes de México. No es un día triste, sino una celebración de la vida y la memoria. La idea es que los espíritus de los familiares y amigos fallecidos regresan por unas horas para convivir con sus seres queridos. Se ponen altares decorados con flores, velas, fotos, comida y objetos que les gustaban a los difuntos. Todo esto representa el amor y el respeto hacia quienes ya no están.</p>
+                <img src="dia1.jpg" alt="Imagen de altar de muertos" class="img-fluid rounded mb-2">
+                <img src="dia2.webp" alt="Calaveritas de azúcar" class="img-fluid rounded">
             </div>
         </section>
 
-        <!-- Sección Dónde nació -->
         <section id="dondenacio" class="row mb-4">
-            <div class="col-12 bg-success p-3 text-white">
+            <div class="col-12 bg-success p-3 text-white rounded">
                 <h2>¿Dónde nació?</h2>
-                <p>El Día de Muertos tiene sus orígenes en las culturas prehispánicas de México, 
-                que rendían culto a la muerte y a los ancestros mucho antes de la llegada de los españoles.</p>
-                <p>[Aquí va la imagen 3]</p>
-                <p>[Aquí va la imagen 4]</p>
+                <p>El Día de Muertos tiene sus raíces en los pueblos indígenas de México, especialmente en las culturas mexica, maya y purépecha. Ellos creían que la muerte no era el final, sino el comienzo de un nuevo ciclo. Cuando los españoles llegaron en el siglo XVI, las tradiciones prehispánicas se mezclaron con las celebraciones católicas como el Día de Todos los Santos, y así nació la festividad como la conocemos hoy en día.</p>
+                <img src="dia3.jpg" alt="Representación prehispánica" class="img-fluid rounded mb-2">
+                <img src="dia4.jpg" alt="Fusión de culturas" class="img-fluid rounded">
             </div>
         </section>
 
-        <!-- Sección Cómo se celebra -->
         <section id="comosecelebra" class="row mb-4">
-            <div class="col-12 bg-success-subtle p-3">
+            <div class="col-12 bg-success-subtle p-3 rounded">
                 <h2>¿Cómo se celebra?</h2>
-                <p>Se colocan altares con ofrendas, se visitan los cementerios, se hacen calaveritas de azúcar, 
-                pan de muerto y se recuerda a los difuntos con alegría.</p>
-                <p>[Aquí va la imagen 5]</p>
-                <p>[Aquí va la imagen 6]</p>
+                <p>La celebración cambia según la región, pero algunos elementos son comunes en todo México. Se colocan ofrendas u altares con fotos, velas, papel picado, calaveritas de azúcar y pan de muerto. También se ponen los alimentos favoritos de los difuntos para “darles la bienvenida”. En muchos pueblos, las familias van al panteón, decoran las tumbas con flores de cempasúchil y pasan la noche ahí, conviviendo con música, comida y rezos. En las ciudades, también se hacen desfiles, concursos de catrinas y actividades culturales.</p>
+                <img src="dia5.jpg" alt="Pan de muerto" class="img-fluid rounded mb-2">
+                <img src="dia6.jpg" alt="Ofrenda en casa" class="img-fluid rounded">
             </div>
         </section>
 
-        <!-- Sección Dónde se celebra -->
         <section id="dondesecelebra" class="row mb-4">
-            <div class="col-12 bg-success p-3 text-white">
+            <div class="col-12 bg-success p-3 text-white rounded">
                 <h2>¿Dónde se celebra?</h2>
-                <p>Se celebra en todo México y en algunos lugares del mundo, pero es en pueblos y ciudades 
-                mexicanas donde tiene más fuerza y tradición.</p>
-                <p>[Aquí va la imagen 7]</p>
-                <p>[Aquí va la imagen 8]</p>
+                <p>El Día de Muertos se celebra en todo México, desde las comunidades más pequeñas hasta las grandes ciudades. Sin embargo, hay lugares que son muy famosos por sus tradiciones, como Pátzcuaro en Michoacán, Mixquic en la Ciudad de México, Oaxaca y Janitzio. Incluso fuera de México, en países como Estados Unidos, donde hay muchas comunidades mexicanas, se hacen altares y festivales para mantener viva esta tradición.</p>
+                <img src="dia7.jpg" alt="Pátzcuaro Michoacán" class="img-fluid rounded mb-2">
+                <img src="dia8.jpg" alt="Celebración en Mixquic" class="img-fluid rounded">
             </div>
         </section>
+
+        <section id="galeria" class="row mb-4">
+            <div class="col-12 bg-success-subtle p-3 rounded">
+                <h2>Galería de Imágenes</h2>
+                <div id="galeriaCarrusel" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="dia1.jpg" class="d-block w-100 rounded" alt="Imagen 1">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="dia2.webp" class="d-block w-100 rounded" alt="Imagen 2">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="dia3.jpg" class="d-block w-100 rounded" alt="Imagen 3">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#galeriaCarrusel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#galeriaCarrusel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                  </button>
+                </div>
+            </div>
+        </section>
+
     </main>
 
-    <footer class="bg-dark text-white text-center p-3">
-        <p>Creado por [Tu nombre] | 3-D</p>
+    <footer class="bg-dark text-white text-center p-3 rounded">
+        <p>Creado por Raymundo Alvarez Martinez | 3-D</p>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
-    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
